@@ -1,0 +1,25 @@
+#include <iostream>
+#include <string>
+
+
+using namespace std;
+
+
+template<typename T>  // you can name your template anything, 'T' is being commonly used.
+T bigger(T a,T b){      // "bigger" is the function you will call to compare.
+    return a > b ? a : b; // this (a>b) returns which is bigger if a is bigger then it is true and print the first condition, if b is bigger is true it prints the second condtition(a:b)
+}
+
+
+
+int main(){
+
+
+
+cout<<bigger(7.8,9.8)<<endl;
+
+
+
+
+    return 0;
+}
